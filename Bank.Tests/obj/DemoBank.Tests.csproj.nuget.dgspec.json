@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Tests\\DemoBank.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Core\\DemoBank.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Core\\DemoBank.Core.csproj",
+        "projectName": "DemoBank.Core",
+        "projectPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Core\\DemoBank.Core.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj": {
+                "projectPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj",
+        "projectName": "DemoBank.Persistance",
+        "projectPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Tests\\DemoBank.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Tests\\DemoBank.Tests.csproj",
+        "projectName": "DemoBank.Tests",
+        "projectPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Tests\\DemoBank.Tests.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Core\\DemoBank.Core.csproj": {
+                "projectPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Core\\DemoBank.Core.csproj"
+              },
+              "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj": {
+                "projectPath": "D:\\DotNetProject\\Interview\\bankappcqrs\\DemoBank\\DemoBank.Persistance\\DemoBank.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
